@@ -1,6 +1,6 @@
 {
   "name": "computux",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Commandline interface for calculating the date of easter(computus)",
   "main": "index.js",
   "bin": "./index.js",
