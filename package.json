@@ -1,0 +1,25 @@
+{
+  "name": "computux",
+  "version": "1.0.0",
+  "description": "Commandline interface for calculating the date of easter(computus)",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EteimZ/computux.git"
+  },
+  "keywords": [
+    "Easter",
+    "Computus",
+    "Commandline"
+  ],
+  "author": "Eteims",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EteimZ/computux/issues"
+  },
+  "homepage": "https://github.com/EteimZ/computux#readme"
+}
