@@ -6,11 +6,11 @@ const readline = require("readline").createInterface({
   output: process.stdout,
 });
 
-readline.question(`Input year: `, (name) => {
-  let easter = util.computus(name);
+readline.question(`Input year: `, (year) => {
+  let easter = util.computus(year);
   console.log(
     `Easter is on the ${
-      easter.o + util.nth(easter.o)
+      easter.o + 1 + util.nth(easter.o)
     } of ${util.switchDateToString(easter.n)}.`
   );
   readline.close();
