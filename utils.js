@@ -1,4 +1,3 @@
-
 function computus(Y){
     a = Y % 19;
     b = Math.floor(Y / 100);

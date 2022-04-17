@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const util = require("./utils");
 const readline = require("readline").createInterface({
   input: process.stdin,
